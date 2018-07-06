@@ -8,7 +8,7 @@ class EventListItem extends Component {
     const {event} = this.props;
 
     return (
-      <div>
+      
         <Segment.Group>
           <Segment>
             <Item.Group>
@@ -45,7 +45,7 @@ class EventListItem extends Component {
             <Button as="a" color="teal" floated="right" content="View" />
           </Segment>
         </Segment.Group>
-      </div>
+      
     );
   }
 }
